@@ -38,11 +38,10 @@ function draw() {
   rect(this.line2.position.x,this.line2.position.y,20,200);
   paper.display();
   drawSprites();
-  keyPressed();
 }
 function keyPressed() {
 	if (keyCode === UP_ARROW) {
-		Matter.Body.applyForce(paper.body,paper.body.position,{x:130,y:-145});
+		Matter.Body.applyForce(paper.body,paper.body.position,{x:380,y:-300});
 	 }
    }
 
